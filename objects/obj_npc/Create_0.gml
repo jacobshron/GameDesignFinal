@@ -1,4 +1,5 @@
 scr_init_npc_globals();
+is_kiko = choose(true, false);
 
 npc_index = global.npc_counter;
 global.npc_counter++;

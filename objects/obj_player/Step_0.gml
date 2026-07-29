@@ -15,3 +15,21 @@ else {
     else if (sprite_index == spr_player_walk_right) sprite_index = spr_player_idle_right; 
     else if (sprite_index == spr_player_walk_left) sprite_index = spr_player_idle_left;     
 }
+
+// find nearest npc
+var nearest_npc = noone;
+var nearest_dist = infinity;
+
+with (obj_npc) {
+    player_nearby = false;
+    
+    var d = point_distance(x, y, other.x, other.y);
+    if (d < nearest_dist) {
+    	nearest_dist = d;
+        nearest_npc = id;
+    }
+}
+
+if (nearest_npc != noone && nearest_dist < 30) {
+    nearest_npc.player_nearby = true;
+}

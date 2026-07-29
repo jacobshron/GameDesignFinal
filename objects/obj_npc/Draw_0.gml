@@ -6,3 +6,7 @@ draw_sprite(shoes_sprite, 0, x, y + 30);
 if (is_leader) {
     draw_circle(x, y - 40, 5, true);
 }
+
+if (player_nearby) {
+    draw_circle(x + 40, y - 40, 5, true);
+}
