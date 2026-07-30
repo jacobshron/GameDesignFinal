@@ -4,9 +4,20 @@ draw_sprite(pants_sprite, 0, x, y + 10);
 draw_sprite(shoes_sprite, 0, x, y + 30);
 
 if (is_leader) {
-    draw_circle(x, y - 40, 5, true);
+    // draw_circle(x, y - 40, 5, true);
 }
 
 if (player_nearby) {
     draw_circle(x + 40, y - 40, 5, true);
+}
+
+if (show_dialogue) {
+    if (!is_leader) {
+        if (is_kiko) draw_text(x, y - 40, "i am a kiko");	
+        else draw_text(x, y - 40, "i am a barb");
+    }
+    else {
+    	if (is_kiko) draw_text(x, y - 40, "i am a barb");
+        else draw_text(x, y - 40, "i am a kiko");
+    }
 }

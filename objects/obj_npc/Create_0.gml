@@ -16,3 +16,11 @@ shoes_sprite = global.shoes_sprites[shoes_bit];
 
 is_leader = false;
 
+speed = 0.4;
+direction = choose(0, 90, 180, 270);
+alarm[0] = 30 + irandom(90);
+
+tilemap = layer_tilemap_get_id("Tiles_col");
+
+show_dialogue = false;
+dialogue_timer = 0;

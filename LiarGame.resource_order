@@ -7,6 +7,8 @@
   ],
   "ResourceOrderSettings":[
     {"name":"obj_npc","order":1,"path":"objects/obj_npc/obj_npc.yy",},
+    {"name":"RoomUI","order":4,"path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"scr_display_dialogue","order":1,"path":"scripts/scr_display_dialogue/scr_display_dialogue.yy",},
     {"name":"spr_col","order":2,"path":"sprites/spr_col/spr_col.yy",},
     {"name":"spr_hat_b","order":1,"path":"sprites/spr_hat_b/spr_hat_b.yy",},
     {"name":"spr_pants_a","order":4,"path":"sprites/spr_pants_a/spr_pants_a.yy",},
