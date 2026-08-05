@@ -1,3 +1,4 @@
+randomize()
 scr_init_npc_globals();
 is_kiko = choose(true, false);
 
@@ -16,7 +17,7 @@ shoes_sprite = global.shoes_sprites[shoes_bit];
 
 is_leader = false;
 
-speed = 0.4;
+speed = 0.2;
 direction = choose(0, 90, 180, 270);
 alarm[0] = 30 + irandom(90);
 
