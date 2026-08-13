@@ -22,15 +22,28 @@ else {
 var nearest_npc = noone;
 var nearest_dist = infinity;
 
-with (obj_npc) {
-    player_nearby = false;
-    
-    var d = point_distance(x, y, other.x, other.y);
-    if (d < nearest_dist) {
-    	nearest_dist = d;
-        nearest_npc = id;
+if (room == 0) { 
+    with (obj_npc) {
+       player_nearby = false;
+       
+       var d = point_distance(x, y, other.x, other.y);
+       if (d < nearest_dist) {
+       	nearest_dist = d;
+           nearest_npc = id;
+       }
+    } 
+} else if (room == 1) {
+	with (obj_npc_small) {
+       player_nearby = false;
+       
+       var d = point_distance(x, y, other.x, other.y);
+       if (d < nearest_dist) {
+       	nearest_dist = d;
+           nearest_npc = id;
+       }
     }
 }
+
 
 if (nearest_npc != noone && nearest_dist < 50) {
     nearest_npc.player_nearby = true;
