@@ -1,3 +1,18 @@
+// guesses remaining indicator
+var start_x = 30;
+var start_y = 620;
+var icon_spacing = 48;
+
+for (var i = 0; i < global.max_guesses; i++) {
+	draw_sprite(spr_empty_guess, 0, start_x + (i * icon_spacing), start_y);
+}
+
+for (var i = 0; i < global.guesses_remaining; i++) {
+	draw_sprite(spr_full_guess, 0, start_x + (i * icon_spacing), start_y);
+}
+
+
+// game over message
 if (global.game_over) {
     
     global.game_over_message_shown = true;

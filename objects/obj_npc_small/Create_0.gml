@@ -23,3 +23,4 @@ tilemap = layer_tilemap_get_id("Tiles_col");
 
 show_dialogue = false;
 dialogue_timer = 0;
+dialogue_message = "";
