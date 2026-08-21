@@ -24,6 +24,7 @@
     {"name":"spr_empty_guess","order":2,"path":"sprites/spr_empty_guess/spr_empty_guess.yy",},
     {"name":"spr_full_guess","order":1,"path":"sprites/spr_full_guess/spr_full_guess.yy",},
     {"name":"spr_hat_b","order":1,"path":"sprites/spr_hat_b/spr_hat_b.yy",},
+    {"name":"spr_nearby_indicator","order":5,"path":"sprites/spr_nearby_indicator/spr_nearby_indicator.yy",},
     {"name":"spr_npc_body_blue_down","order":8,"path":"sprites/spr_npc_body_blue_down/spr_npc_body_blue_down.yy",},
     {"name":"spr_npc_body_blue_left","order":6,"path":"sprites/spr_npc_body_blue_left/spr_npc_body_blue_left.yy",},
     {"name":"spr_npc_body_blue_right","order":7,"path":"sprites/spr_npc_body_blue_right/spr_npc_body_blue_right.yy",},

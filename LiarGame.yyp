@@ -58,6 +58,7 @@
     {"id":{"name":"spr_full_guess","path":"sprites/spr_full_guess/spr_full_guess.yy",},},
     {"id":{"name":"spr_hat_a","path":"sprites/spr_hat_a/spr_hat_a.yy",},},
     {"id":{"name":"spr_hat_b","path":"sprites/spr_hat_b/spr_hat_b.yy",},},
+    {"id":{"name":"spr_nearby_indicator","path":"sprites/spr_nearby_indicator/spr_nearby_indicator.yy",},},
     {"id":{"name":"spr_npc_body_blue_down","path":"sprites/spr_npc_body_blue_down/spr_npc_body_blue_down.yy",},},
     {"id":{"name":"spr_npc_body_blue_left","path":"sprites/spr_npc_body_blue_left/spr_npc_body_blue_left.yy",},},
     {"id":{"name":"spr_npc_body_blue_right","path":"sprites/spr_npc_body_blue_right/spr_npc_body_blue_right.yy",},},
