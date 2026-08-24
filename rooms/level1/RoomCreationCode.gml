@@ -1,4 +1,4 @@
-randomise();
+// randomise();
 var npc_list = [];
 with (obj_npc_small) {
 	array_push(npc_list, id);
@@ -8,7 +8,7 @@ with (obj_npc_small) {
     show_debug_message("npc created with npc_index = " + string(npc_index));
 }
 
-var parity_positions = [1, 2, 4];
+/* var parity_positions = [1, 2, 4];
 
 for (var i = 0; i < array_length(parity_positions); i++) {
 	var p = parity_positions[i];
@@ -36,4 +36,4 @@ with (obj_npc_small) {
     if (is_leader) { 
         is_kiko = !is_kiko;
     }
-}
+} */

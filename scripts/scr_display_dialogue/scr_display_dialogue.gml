@@ -1,5 +1,5 @@
 function scr_display_dialogue(x, y, message){
-    draw_set_font(font_small);
+    draw_set_font(font_pixelfy);
     
     var bubble_x = x;
     var bubble_y = y - 20;
