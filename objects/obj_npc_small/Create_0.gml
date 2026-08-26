@@ -13,10 +13,6 @@ hat_sprite = global.hat_sprites[hat_bit];
 shirt_sprite = global.shirt_sprites[shirt_bit];
 shoes_sprite = global.shoes_sprites[shoes_bit];
 
-speed = 0.2;
-direction = choose(0, 90, 180, 270);
-alarm[0] = 30 + irandom(90);
-
 tilemap = layer_tilemap_get_id("Tiles_col");
 
 show_dialogue = false;

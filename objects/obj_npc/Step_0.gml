@@ -13,5 +13,6 @@ if (show_dialogue) {
 if (global.game_over_message_shown && keyboard_check_pressed(vk_enter)) {
     global.game_over = false;
     global.game_over_message_shown = false;
-    room_goto(room);
+    room_persistent = false;
+    room_restart();
 }

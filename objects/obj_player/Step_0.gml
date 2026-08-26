@@ -22,7 +22,7 @@ else {
 var nearest_npc = noone;
 var nearest_dist = infinity;
 
-if (room == 1) { 
+if (room == rm_level2) { 
     with (obj_npc) {
        player_nearby = false;
        
@@ -32,7 +32,7 @@ if (room == 1) {
            nearest_npc = id;
        }
     } 
-} else if (room == 0) {
+} else if (room == rm_level1) {
 	with (obj_npc_small) {
        player_nearby = false;
        

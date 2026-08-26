@@ -1,4 +1,3 @@
-randomize()
 scr_init_npc_globals();
 is_kiko = choose(true, false);
 
