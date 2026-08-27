@@ -1,4 +1,5 @@
-function scr_display_dialogue(x, y, message){
+function scr_display_dialogue(x, y, message, talk_time){
+    
     draw_set_font(font_pixelfy);
     
     var bubble_x = x;
@@ -21,7 +22,7 @@ function scr_display_dialogue(x, y, message){
     draw_set_color(c_white);
     draw_rectangle_color(left, top, right, bottom, c_white, c_white, c_white, c_white, false);
 
-    // little pointer triangle at the bottom, pointing down toward the npc
+    // little pointer triangle
     draw_triangle_color(
         bubble_x, bottom,
         bubble_x + 12, bottom,
@@ -36,10 +37,10 @@ function scr_display_dialogue(x, y, message){
     draw_set_valign(fa_middle);
     draw_text(bubble_x, top + bubble_h / 2, message);
 
-    // reset
+    // reset drawing utilities
     draw_set_halign(fa_left);
     draw_set_valign(fa_top);
     draw_set_colour(c_white);
-
     draw_set_font(-1);
+
 }

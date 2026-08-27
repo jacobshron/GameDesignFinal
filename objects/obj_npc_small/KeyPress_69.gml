@@ -1,6 +1,7 @@
 if (player_nearby) {
-    //if (is_kiko) dialogue_message = "I am a Kiko.";	
-    //else dialogue_message = "I am a Barb.";
+    dialogue_message = clue_dialogue_message;
     show_dialogue = true;
     dialogue_timer = 400;
+    
+    my_dialogue_time = current_time;
 }

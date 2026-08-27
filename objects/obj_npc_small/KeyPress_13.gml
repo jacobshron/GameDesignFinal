@@ -6,6 +6,8 @@ if (player_nearby) {
     } 
     else if (global.guesses_remaining > 0) {
         show_dialogue = true;
+        global.dialogue_timestamp += 1;
+        my_dialogue_time = global.dialogue_timestamp; 
         dialogue_message = "I'm telling the truth! Try Again."
         dialogue_timer = 400;
     }

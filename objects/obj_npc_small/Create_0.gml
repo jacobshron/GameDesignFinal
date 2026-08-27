@@ -15,5 +15,7 @@ shoes_sprite = global.shoes_sprites[shoes_bit];
 
 tilemap = layer_tilemap_get_id("Tiles_col");
 
+dialogue_message = clue_dialogue_message;
 show_dialogue = false;
 dialogue_timer = 0;
+my_dialogue_time = 0;
