@@ -1,1 +1,1 @@
-room_persistent = true;
+room_persistent = false;
