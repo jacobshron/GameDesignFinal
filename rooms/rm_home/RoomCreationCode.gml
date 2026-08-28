@@ -1,0 +1,1 @@
+layer_set_visible("UILayer_1", false);

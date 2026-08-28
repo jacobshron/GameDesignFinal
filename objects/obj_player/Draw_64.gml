@@ -28,7 +28,7 @@ if (global.game_over) {
     draw_set_font(font_large);
     draw_text(display_get_gui_width() / 2, display_get_gui_height() / 2, global.game_over_message);
     draw_set_font(font_mid);
-    draw_text(display_get_gui_width() / 2, display_get_gui_height() / 2 + 100, "Press ENTER to restart.");
+    draw_text(display_get_gui_width() / 2, display_get_gui_height() / 2 + 100, "Press ENTER to go to Level Select.");
 
     draw_set_halign(fa_left);
     draw_set_valign(fa_top);

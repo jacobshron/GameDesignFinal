@@ -1,6 +1,6 @@
-// layer_set_visible("UILayer_1", true);
+layer_set_visible("UILayer_1", true);
 
-/*var npc_list = [];
+var npc_list = [];
 with (obj_npc_small) {
 	array_push(npc_list, id);
 }
